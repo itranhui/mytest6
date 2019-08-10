@@ -9,4 +9,27 @@ package com.itranhui.pojo;
 public class Student {
 
     private  String  student;
+
+    /**
+     * U2用户修改代码
+
+     */
+
+    private String address ;
+
+    public String getStudent() {
+        return student;
+    }
+
+    public void setStudent(String student) {
+        this.student = student;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
