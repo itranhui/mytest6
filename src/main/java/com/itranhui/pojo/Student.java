@@ -9,6 +9,8 @@ package com.itranhui.pojo;
 public class Student {
 
     private  String  student;
+    private  String age;
+
 
     /**
      * U2用户修改代码
@@ -31,5 +33,19 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+    /**
+     * U1修改代码
+     *
+     *
+     */
+
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }
